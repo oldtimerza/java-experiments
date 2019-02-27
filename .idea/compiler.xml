@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pass-by" />
+        <module name="sorts" />
+      </profile>
+      <profile name="Annotation profile for java-experiments-streams" enabled="true">
+        <sourceOutputDir name="../javaexperimentsstreams/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../javaexperimentsstreams/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="streams" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sorts" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
