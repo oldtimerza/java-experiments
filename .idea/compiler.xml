@@ -16,9 +16,5 @@
         <module name="streams" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="sorts" target="1.5" />
-      <module name="streams" target="8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
