@@ -4,11 +4,11 @@ import java.util.Arrays;
 import java.util.List;
 
 public class InsertionSort {
-    public static List<Integer> sort(List<Integer> sortableList){
+    public List<Integer> sort(List<Integer> sortableList){
         return insertionSort(sortableList);
     }
 
-    private static List<Integer> insertionSort(List<Integer> arr){
+    private List<Integer> insertionSort(List<Integer> arr){
 
         int i;
         int value;
@@ -27,5 +27,5 @@ public class InsertionSort {
 
         return arr;
     }
-};
+}
 

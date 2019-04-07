@@ -4,11 +4,11 @@ import java.util.List;
 
 public class BubbleSort {
 
-    public static List<Integer> sort(List<Integer> sortableList){
+    public List<Integer> sort(List<Integer> sortableList){
         return bubbleSort(sortableList);
-    };
+    }
 
-    private static List<Integer> bubbleSort(List<Integer> arr){
+    private List<Integer> bubbleSort(List<Integer> arr){
 
         int i;
         int j;
@@ -23,5 +23,5 @@ public class BubbleSort {
             }
         }
         return arr;
-    };
+    }
 }

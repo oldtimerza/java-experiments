@@ -6,11 +6,11 @@ import java.util.List;
 
 public class SelectSort {
 
-    public static List<Integer> sort(List<Integer> sortableList){
+    public List<Integer> sort(List<Integer> sortableList){
         return selectSort(sortableList);
-    };
+    }
 
-    private static List<Integer> selectSort(List<Integer> arr){
+    private List<Integer> selectSort(List<Integer> arr){
 
         int i;
         int j;

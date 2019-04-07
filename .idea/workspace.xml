@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c7d90c3-1533-4ab2-9be8-9c101c3bc31b" name="Default Changelist" comment="Insertion sort practice">
-      <change afterPath="$PROJECT_DIR$/sorts/src/main/java/za/co/oldtimerza/sorts/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorts/src/test/java/za/co/oldtimerza/sorts/BubbleSortTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorts/src/main/java/za/co/oldtimerza/sorts/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorts/src/main/java/za/co/oldtimerza/sorts/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorts/src/main/java/za/co/oldtimerza/sorts/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorts/src/main/java/za/co/oldtimerza/sorts/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorts/src/main/java/za/co/oldtimerza/sorts/SelectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorts/src/main/java/za/co/oldtimerza/sorts/SelectSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorts/src/test/java/za/co/oldtimerza/sorts/BubbleSortTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorts/src/test/java/za/co/oldtimerza/sorts/BubbleSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorts/src/test/java/za/co/oldtimerza/sorts/InsertionSortTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorts/src/test/java/za/co/oldtimerza/sorts/InsertionSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorts/target/classes/za/co/oldtimerza/sorts/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorts/target/classes/za/co/oldtimerza/sorts/InsertionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorts/target/classes/za/co/oldtimerza/sorts/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorts/target/classes/za/co/oldtimerza/sorts/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorts/target/classes/za/co/oldtimerza/sorts/SelectSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorts/target/test-classes/za/co/oldtimerza/sorts/BubbleSortTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorts/target/test-classes/za/co/oldtimerza/sorts/InsertionSortTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorts/target/test-classes/za/co/oldtimerza/sorts/MergeSortTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorts/target/test-classes/za/co/oldtimerza/sorts/QuickSortTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorts/target/test-classes/za/co/oldtimerza/sorts/SelectSortTests.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,13 +42,26 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sorts/src/main/java/za/co/oldtimerza/sorts/BubbleSort.java">
+        <entry file="file://$PROJECT_DIR$/sorts/src/main/java/za/co/oldtimerza/sorts/SelectSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="170">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <folding>
-                <element signature="e#124#125#0" expanded="true" />
-                <element signature="e#148#149#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sorts/src/main/java/za/co/oldtimerza/sorts/InsertionSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,12 +105,12 @@
         <option value="$PROJECT_DIR$/sorts/src/test/java/za/co/oldtimerza/sorts/MergeSortTests.java" />
         <option value="$PROJECT_DIR$/sorts/src/test/java/za/co/oldtimerza/sorts/QuickSortTests.java" />
         <option value="$PROJECT_DIR$/sorts/src/main/java/za/co/oldtimerza/sorts/QuickSort.java" />
-        <option value="$PROJECT_DIR$/sorts/src/test/java/za/co/oldtimerza/sorts/InsertionSortTests.java" />
-        <option value="$PROJECT_DIR$/sorts/src/main/java/za/co/oldtimerza/sorts/InsertionSort.java" />
         <option value="$PROJECT_DIR$/sorts/src/test/java/za/co/oldtimerza/sorts/SelectSortTests.java" />
-        <option value="$PROJECT_DIR$/sorts/src/main/java/za/co/oldtimerza/sorts/SelectSort.java" />
         <option value="$PROJECT_DIR$/sorts/src/test/java/za/co/oldtimerza/sorts/BubbleSortTests.java" />
+        <option value="$PROJECT_DIR$/sorts/src/test/java/za/co/oldtimerza/sorts/InsertionSortTests.java" />
         <option value="$PROJECT_DIR$/sorts/src/main/java/za/co/oldtimerza/sorts/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/sorts/src/main/java/za/co/oldtimerza/sorts/SelectSort.java" />
+        <option value="$PROJECT_DIR$/sorts/src/main/java/za/co/oldtimerza/sorts/InsertionSort.java" />
       </list>
     </option>
   </component>
@@ -103,8 +128,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1254" />
-    <option name="y" value="519" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
     <option name="width" value="1875" />
     <option name="height" value="1098" />
   </component>
@@ -374,13 +399,24 @@
       <option name="project" value="LOCAL" />
       <updated>1554587564305</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Insertion sort practice">
+      <created>1554604313439</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554604313439</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Insertion sort practice">
+      <created>1554604483962</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1554604483962</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SelectSortTests - 2019.04.06 at 18h 51m 36s.xml">
-      <configuration name="SelectSortTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SelectSortTests - 2019.04.06 at 18h 52m 36s.xml">
       <configuration name="SelectSortTests" configurationId="JUnit" />
     </history-entry>
@@ -408,6 +444,9 @@
     <history-entry file="BubbleSortTests - 2019.04.06 at 22h 30m 09s.xml">
       <configuration name="BubbleSortTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BubbleSortTests - 2019.04.07 at 16h 18m 04s.xml">
+      <configuration name="BubbleSortTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -422,7 +461,7 @@
     <frame x="-7" y="-7" width="2575" height="1424" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27077535" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27316102" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -431,15 +470,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4914513" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49065608" weight="0.15247679" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4998012" weight="0.32972136" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4998012" weight="0.32972136" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50854874" side_tool="true" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5077535" side_tool="true" visible="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4998012" weight="0.32972136" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49304175" weight="0.32894737" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.4922465" visible="true" weight="0.32894737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24970178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -449,7 +488,7 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3296582" />
-      <window_info anchor="right" id="Maven" order="9" weight="0.32962227" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.4672269" />
     </layout>
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -559,24 +598,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../spring-boot-microservices/Dockerfile" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pass-by/src/test/java/za/co/oldtimerza/passby/PassByTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pass-by/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -605,18 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sorts/src/test/java/za/co/oldtimerza/sorts/QuickSortTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pass-by/src/main/java/za/co/oldtimerza/passby/SimpleObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -628,25 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorts/src/test/java/za/co/oldtimerza/sorts/MergeSortTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorts/src/main/java/za/co/oldtimerza/sorts/InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#119#120#0" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -662,22 +656,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sorts/src/main/java/za/co/oldtimerza/sorts/SelectSort.java">
+    <entry file="file://$PROJECT_DIR$/sorts/src/test/java/za/co/oldtimerza/sorts/QuickSortTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        <state relative-caret-position="306">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pass-by/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorts/src/test/java/za/co/oldtimerza/sorts/MergeSortTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorts/src/test/java/za/co/oldtimerza/sorts/BubbleSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorts/src/test/java/za/co/oldtimerza/sorts/InsertionSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sorts/src/main/java/za/co/oldtimerza/sorts/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state relative-caret-position="646">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#168#169#0" expanded="true" />
@@ -686,27 +724,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sorts/src/test/java/za/co/oldtimerza/sorts/InsertionSortTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorts/src/test/java/za/co/oldtimerza/sorts/BubbleSortTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sorts/src/main/java/za/co/oldtimerza/sorts/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="425">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
-            <element signature="e#124#125#0" expanded="true" />
             <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorts/src/main/java/za/co/oldtimerza/sorts/InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorts/src/main/java/za/co/oldtimerza/sorts/SelectSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
           </folding>
         </state>
       </provider>
