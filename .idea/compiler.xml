@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="pass-by" />
         <module name="sorts" />
+        <module name="pass-by" />
       </profile>
       <profile name="Annotation profile for java-experiments-streams" enabled="true">
         <sourceOutputDir name="../javaexperimentsstreams/target/generated-sources/annotations" />
