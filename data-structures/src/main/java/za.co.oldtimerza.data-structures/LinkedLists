@@ -1,0 +1,85 @@
+import java.util.List;
+
+public class Node {
+    private int data;
+    private Node next;
+    private Node prev;
+
+    public void Node(int data, Node prev,Node next){
+
+        this.data =data;
+        this.next = next;
+        this.prev = prev;
+    }
+
+    public Node getNext(){
+        if(this.next != null){
+            return this.next();
+        }
+    }
+
+    public void setNext(Node next) {
+        this.next = next;
+    }
+
+    public Node getPrev(){
+        if(this.prev != null){
+            return this.prev;
+        }
+    }
+
+    public void setPrev(Node prev) {
+        this.prev = prev;
+    }
+
+    public getData(){
+        return this.data;
+    }
+    public setData(int data){
+        this.data = data;
+    }
+}
+
+public class LinkedList{
+    private List<Node> nodes;
+
+    public void LinkedList(List<Node> node){
+        this.nodes = new List<Node>;
+    }
+
+    public Node get(int identifier){
+        return nodes.get(identifier);
+        }
+    }
+
+    public string push(int data){
+        for (int i = this.nodes.size(); i > 0; i--) {
+            temp = this.nodes.get(i)
+            nodes.set(i+1,temp)
+        }
+        nodes.set(0, new_node)
+        Node new_node = new Node(data,null,this.nodes.get(1))
+        string success = 'Successfully inserted node'
+        return success
+    }
+
+    public string put(int data){
+    Node new_node = new Node;
+    Node last_node = nodes.get(-1);
+    new_node.setPrev(last_node);
+    new_node.setNext(null);
+    last_node.setNext(new_node);
+    }
+
+    public string insert(Node prev, int data){
+        Node new_node = new Node(data);
+        this.nodes.set(position, new_node);
+        new_node.setPrev(prev);
+        new_node.setNext(prev.getNext());
+        prev.getNext().setPrev(new_node);
+        prev.setNext(new_node);
+    }
+}
+
+
+

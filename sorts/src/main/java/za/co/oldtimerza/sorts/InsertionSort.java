@@ -4,28 +4,26 @@ import java.util.Arrays;
 import java.util.List;
 
 public class InsertionSort {
-    public List<Integer> sort(List<Integer> sortableList){
+    public List<Integer> sort(List<Integer> sortableList) {
         return insertionSort(sortableList);
     }
 
-    private List<Integer> insertionSort(List<Integer> arr){
+    private int test;
 
-        int i;
-        int value;
+    private List<Integer> insertionSort(List<Integer> arr) {
 
-        for (i=1; i< arr.size(); i++){
-            value = arr.get(i);
+        for (int i = 1; i < arr.size(); i++) {
+            int value = arr.get(i);
             int j = i;
 
-            while(j>0 && value<arr.get(j-1)) {
-                arr.set(j,arr.get(j-1));
+            while (j > 0 && value < arr.get(j - 1)) {
+                arr.set(j, arr.get(j - 1));
                 j--;
             }
 
-            arr.set(j,value);
+            arr.set(j, value);
         }
 
         return arr;
     }
 }
-
