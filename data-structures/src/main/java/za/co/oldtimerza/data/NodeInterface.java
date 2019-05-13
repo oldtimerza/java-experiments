@@ -1,10 +1,10 @@
 package za.co.oldtimerza.data;
 
-public interface NodeInterface<T, E extends Node> {
+public interface NodeInterface<T> {
     T getData();
-    E getNext();
-    E getPrev();
+    NodeInterface getNext();
+    NodeInterface getPrev();
     void setData(T data);
-    void setNext(E node);
-    void setPrev(E node);
+    void setNext(NodeInterface node);
+    void setPrev(NodeInterface node);
 }

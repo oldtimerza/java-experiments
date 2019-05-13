@@ -1,30 +1,22 @@
 package za.co.oldtimerza.data;
 
 public class DoublyLinkedList<T>{
-    private Node head = null;
-    private Node tail = null;
+    private NodeInterface head = null;
+    private NodeInterface tail = null;
 
     public DoublyLinkedList(){
 
     }
 
-    public Node getHead(){
-        return this.head;
-    }
-
-    public void setHead(Node node){
+    public void setHead(NodeInterface node){
         if(this.head == null){
             this.head = node;
         }
         else{
-            Node temp = this.head;
+            NodeInterface temp = this.head;
             this.head = node;
             this.head.setNext(temp);
         }
-    }
-
-    public Node getTail(){
-        return this.tail;
     }
 
     public void setTail(Node node){
@@ -37,8 +29,13 @@ public class DoublyLinkedList<T>{
         }
     }
 
-    public Node get(Node node){
-        Node n = this.head;
+    public NodeInterface getHead()
+    {
+        return this.head;
+    }
+
+    public NodeInterface get(NodeInterface node){
+        NodeInterface n = this.head;
         while(n.getNext() != null){
             if(n == node){
                 return n;
@@ -50,10 +47,10 @@ public class DoublyLinkedList<T>{
         return null;
     }
 
-    public Node getLastNode(){
+    public NodeInterface getLastNode(){
 
         if(this.tail == null){
-            Node n = this.head;
+            NodeInterface n = this.head;
             while(n.getNext() != null){
                 n = n.getNext();
             }
@@ -77,8 +74,8 @@ public class DoublyLinkedList<T>{
     }
 
     public void addAtPosition(Node position, Node newnode){
-        Node n0 = this.get(position);
-        Node n1 = n0.getNext();
+        NodeInterface n0 = this.get(position);
+        NodeInterface n1 = n0.getNext();
 
         n0.setNext(newnode);
         n1.setPrev(newnode);

@@ -1,24 +1,24 @@
 package za.co.oldtimerza.data;
 
-public class Node<T>{
+public class Node<T> implements NodeInterface<T>{
 
-    private Node prev = null;
-    private Node next = null;
+    private NodeInterface prev = null;
+    private NodeInterface next = null;
     private T data = null;
 
-    public Node getPrev() {
+    public NodeInterface getPrev() {
         return prev;
     }
 
-    public void setPrev(Node prev) {
+    public void setPrev(NodeInterface prev) {
         this.prev = prev;
     }
 
-    public Node getNext() {
+    public NodeInterface getNext() {
         return next;
     }
 
-    public void setNext(Node next) {
+    public void setNext(NodeInterface next) {
         this.next = next;
     }
 
