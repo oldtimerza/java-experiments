@@ -8,6 +8,10 @@ public class DoublyLinkedList<T>{
 
     }
 
+    public Node getHead(){
+        return this.head;
+    }
+
     public void setHead(Node node){
         if(this.head == null){
             this.head = node;
@@ -17,6 +21,10 @@ public class DoublyLinkedList<T>{
             this.head = node;
             this.head.setNext(temp);
         }
+    }
+
+    public Node getTail(){
+        return this.tail;
     }
 
     public void setTail(Node node){
