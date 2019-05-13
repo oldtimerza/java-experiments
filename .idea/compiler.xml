@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="sorts" />
         <module name="pass-by" />
+        <module name="data" />
       </profile>
       <profile name="Annotation profile for java-experiments-streams" enabled="true">
         <sourceOutputDir name="../javaexperimentsstreams/target/generated-sources/annotations" />
