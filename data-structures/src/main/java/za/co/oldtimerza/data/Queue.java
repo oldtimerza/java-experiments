@@ -17,9 +17,9 @@ public class Queue {
         this.queue.add(node);
     }
 
-    public Node dequeue(Node node)
+    public NodeInterface dequeue(Node node)
     {
-        Node head = this.queue.getHead();
+        NodeInterface head = this.queue.getHead();
         this.queue.setHead(head.getNext());
         this.queue.getHead().setPrev(null);
         return head;

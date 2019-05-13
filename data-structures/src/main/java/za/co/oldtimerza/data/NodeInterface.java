@@ -2,9 +2,9 @@ package za.co.oldtimerza.data;
 
 public interface NodeInterface<T> {
     T getData();
-    Node getNext();
-    Node getPrev();
+    NodeInterface getNext();
+    NodeInterface getPrev();
     void setData(T data);
-    void setNext(Node node);
-    void setPrev(Node node);
+    void setNext(NodeInterface node);
+    void setPrev(NodeInterface node);
 }
