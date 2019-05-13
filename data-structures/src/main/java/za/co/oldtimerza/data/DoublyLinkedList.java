@@ -29,6 +29,11 @@ public class DoublyLinkedList<T>{
         }
     }
 
+    public Node getHead()
+    {
+        return this.head;
+    }
+
     public Node get(Node node){
         Node n = this.head;
         while(n.getNext() != null){

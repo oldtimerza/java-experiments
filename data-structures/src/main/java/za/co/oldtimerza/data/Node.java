@@ -1,6 +1,6 @@
 package za.co.oldtimerza.data;
 
-public class Node<T>{
+public class Node<T> implements NodeInterface<T>{
 
     private Node prev = null;
     private Node next = null;
