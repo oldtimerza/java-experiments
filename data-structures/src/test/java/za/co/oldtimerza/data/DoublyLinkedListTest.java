@@ -40,6 +40,9 @@ public class DoublyLinkedListTest {
         Assert.assertEquals(this.list.getNumberOfElements(),3);
     }
 
-
+    @Test
+    public void shouldGetNode(){
+        Assert.assertEquals(this.list.get(node2),node2);
+    }
 }
 
