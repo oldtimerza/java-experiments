@@ -35,6 +35,14 @@ public class DoublyLinkedListTest {
     }
 
     @Test
+    public void shoudlAddNodeAtPosition()
+    {
+    LinkableContainer node4 = new Node<Integer>();
+    this.list.addAtPosition(node2,node4);
+    Assert.assertEquals(this.list.get(node4).getNext(), node3);
+    }
+
+    @Test
     public void shouldGetListLength()
     {
         Assert.assertEquals(this.list.getNumberOfElements(),3);
