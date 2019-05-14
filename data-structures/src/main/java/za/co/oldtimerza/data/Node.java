@@ -1,24 +1,32 @@
 package za.co.oldtimerza.data;
 
-public class Node<T> implements NodeInterface<T>{
+public class Node<T> implements LinkableContainer<T> {
 
-    private NodeInterface prev = null;
-    private NodeInterface next = null;
+    private LinkableContainer prev = null;
+    private LinkableContainer next = null;
     private T data = null;
 
-    public NodeInterface getPrev() {
+    public Node(T t){
+        this.data = t;
+    }
+
+    public Node(){
+
+    }
+
+    public LinkableContainer getPrev() {
         return prev;
     }
 
-    public void setPrev(NodeInterface prev) {
+    public void setPrev(LinkableContainer prev) {
         this.prev = prev;
     }
 
-    public NodeInterface getNext() {
+    public LinkableContainer getNext() {
         return next;
     }
 
-    public void setNext(NodeInterface next) {
+    public void setNext(LinkableContainer next) {
         this.next = next;
     }
 

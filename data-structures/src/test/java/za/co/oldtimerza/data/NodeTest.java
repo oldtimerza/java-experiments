@@ -16,7 +16,6 @@ public class NodeTest{
         node2 = new Node<String>();
     }
 
-
     @Test
     public void shouldSetNodeData(){
         node2.setData("test");
