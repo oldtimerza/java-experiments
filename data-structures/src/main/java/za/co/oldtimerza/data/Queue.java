@@ -12,7 +12,7 @@ public class Queue {
         this.queue = queue;
     }
 
-    public void enqueue(Node node)
+    public void enqueue(LinkableContainer node)
     {
         this.queue.add(node);
     }

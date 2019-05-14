@@ -1,6 +1,6 @@
 package za.co.oldtimerza.data;
 
-public class DoublyLinkedList{
+public class DoublyLinkedList implements  LinkedList{
     private LinkableContainer head = null;
     private LinkableContainer tail = null;
 
@@ -49,13 +49,15 @@ public class DoublyLinkedList{
         }
     }
 
-    public LinkableContainer get(LinkableContainer node){
+    public LinkableContainer get(int index) {
+        int count = 0;
         LinkableContainer n = this.head;
         while(n.getNext() != null){
-            if(n == node){
+            if(count == index){
                 return n;
             }
             else{
+                count += 1;
                 n = n.getNext();
             }
         }
@@ -75,7 +77,11 @@ public class DoublyLinkedList{
         }
     }
 
-    public void addAtPosition(LinkableContainer position, LinkableContainer newnode){
+    public void remove(int index) {
+        this.get(index);
+    }
+
+    public void addAtPosition(int position, LinkableContainer newnode){
         LinkableContainer n0 = this.get(position);
         LinkableContainer n1 = n0.getNext();
 

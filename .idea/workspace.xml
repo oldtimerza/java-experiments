@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c7d90c3-1533-4ab2-9be8-9c101c3bc31b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/QueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/DoublyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/DoublyLinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/QueueTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,53 +34,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/DoublyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="87" column="36" selection-start-line="87" selection-start-column="36" selection-end-line="87" selection-end-column="36" />
+            <state relative-caret-position="442">
+              <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
               <folding>
                 <element signature="method#DoublyLinkedList#0;class#DoublyLinkedList#0" />
                 <element signature="method#setHead#0;class#DoublyLinkedList#0" />
-                <element signature="e#246#287#1" />
-                <element signature="e#300#418#1" />
+                <element signature="e#267#308#1" />
+                <element signature="e#321#447#1" />
                 <element signature="method#setTail#0;class#DoublyLinkedList#0" />
+                <element signature="e#533#574#1" />
+                <element signature="e#587#665#1" />
                 <element signature="method#getTail#0;class#DoublyLinkedList#0" />
+                <element signature="e#821#1021#1" />
+                <element signature="e#906#954#1" />
+                <element signature="e#1034#1075#1" />
                 <element signature="method#get#0;class#DoublyLinkedList#0" />
-                <element signature="e#810#953#1" />
-                <element signature="e#837#878#1" />
-                <element signature="e#895#943#1" />
+                <element signature="e#1250#1398#1" />
+                <element signature="e#1282#1323#1" />
+                <element signature="e#1330#1378#1" />
                 <element signature="method#add#0;class#DoublyLinkedList#0" />
+                <element signature="e#1465#1542#1" />
+                <element signature="e#1555#1724#1" />
                 <element signature="method#addAtPosition#0;class#DoublyLinkedList#0" />
-                <element signature="method#getNumberOfElementsInList#0;class#DoublyLinkedList#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/DoublyLinkedListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#726#727#0" expanded="true" />
-                <element signature="e#848#849#0" expanded="true" />
-                <element signature="e#893#894#0" expanded="true" />
-                <element signature="e#914#915#0" expanded="true" />
-                <element signature="e#1017#1018#0" expanded="true" />
-                <element signature="e#1038#1039#0" expanded="true" />
+                <element signature="method#getNumberOfElements#0;class#DoublyLinkedList#0" />
+                <element signature="e#2164#2228#1" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/QueueTest.java">
+        <entry file="file://$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/DoublyLinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="425">
+              <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+              <folding>
+                <element signature="method#setup#0;class#DoublyLinkedListTest#0" />
+                <element signature="e#1239#1240#0" expanded="true" />
+                <element signature="e#1302#1303#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/LinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -85,11 +93,22 @@
         <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Queue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
               <folding>
                 <element signature="method#Queue#0;class#Queue#0" />
-                <element signature="n#!!block;n#setQueue#0;n#Queue#0" />
                 <element signature="method#dequeue#0;class#Queue#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/QueueTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,12 +117,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="85">
+              <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
               <folding>
                 <element signature="e#222#223#0" expanded="true" />
                 <element signature="e#251#252#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/LinkableContainer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -160,10 +188,12 @@
         <option value="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/LinkedLists" />
         <option value="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/SinglyLinkedList.java" />
         <option value="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/NodeInterface.java" />
-        <option value="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Queue.java" />
         <option value="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Container.java" />
         <option value="$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/NodeTest.java" />
+        <option value="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Queue.java" />
+        <option value="$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/QueueTest.java" />
         <option value="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Node.java" />
+        <option value="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/LinkedList.java" />
         <option value="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/DoublyLinkedList.java" />
         <option value="$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/DoublyLinkedListTest.java" />
       </list>
@@ -194,8 +224,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -566,38 +596,52 @@
       <option name="project" value="LOCAL" />
       <updated>1557794659648</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="-Tests for DoublyLinkedList">
+      <created>1557794881772</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1557794881772</updated>
+    </task>
+    <task id="LOCAL-00012" summary="-Tests for DoublyLinkedList">
+      <created>1557796054267</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1557796054267</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DoublyLinkedListTest - 2019.05.13 at 20h 39m 19s.xml">
-      <configuration name="DoublyLinkedListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DoublyLinkedListTest - 2019.05.13 at 20h 39m 32s.xml">
-      <configuration name="DoublyLinkedListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DoublyLinkedListTest - 2019.05.13 at 20h 40m 36s.xml">
-      <configuration name="DoublyLinkedListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DoublyLinkedListTest - 2019.05.13 at 20h 41m 29s.xml">
-      <configuration name="DoublyLinkedListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DoublyLinkedListTest - 2019.05.13 at 20h 41m 53s.xml">
-      <configuration name="DoublyLinkedListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DoublyLinkedListTest - 2019.05.13 at 20h 42m 04s.xml">
-      <configuration name="DoublyLinkedListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DoublyLinkedListTest - 2019.05.13 at 20h 42m 24s.xml">
-      <configuration name="DoublyLinkedListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DoublyLinkedListTest - 2019.05.13 at 20h 42m 32s.xml">
-      <configuration name="DoublyLinkedListTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DoublyLinkedListTest - 2019.05.13 at 20h 43m 39s.xml">
       <configuration name="DoublyLinkedListTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DoublyLinkedListTest - 2019.05.13 at 20h 47m 49s.xml">
+      <configuration name="DoublyLinkedListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DoublyLinkedListTest - 2019.05.13 at 21h 07m 24s.xml">
+      <configuration name="DoublyLinkedListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DoublyLinkedListTest - 2019.05.14 at 17h 25m 32s.xml">
+      <configuration name="DoublyLinkedListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DoublyLinkedListTest - 2019.05.14 at 17h 25m 56s.xml">
+      <configuration name="DoublyLinkedListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DoublyLinkedListTest - 2019.05.14 at 17h 26m 15s.xml">
+      <configuration name="DoublyLinkedListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DoublyLinkedListTest - 2019.05.14 at 17h 26m 24s.xml">
+      <configuration name="DoublyLinkedListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DoublyLinkedListTest - 2019.05.14 at 17h 27m 26s.xml">
+      <configuration name="DoublyLinkedListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DoublyLinkedListTest - 2019.05.14 at 17h 27m 33s.xml">
+      <configuration name="DoublyLinkedListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DoublyLinkedListTest - 2019.05.14 at 17h 27m 42s.xml">
       <configuration name="DoublyLinkedListTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -614,7 +658,7 @@
     <frame x="-7" y="-7" width="2575" height="1424" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.120874755" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12166998" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -623,7 +667,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49065608" visible="true" weight="0.15247679" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49065608" visible="true" weight="0.28250775" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -884,7 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/LinkedList.java" />
     <entry file="file://$PROJECT_DIR$/data-structures/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -911,13 +954,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/LinkableContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sorts/src/test/java/za/co/oldtimerza/sorts/SelectSortTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -940,10 +976,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/QueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/LinkableContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="85">
+          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
           <folding>
             <element signature="e#222#223#0" expanded="true" />
             <element signature="e#251#252#0" expanded="true" />
@@ -951,59 +1004,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/QueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
           <folding>
             <element signature="method#Queue#0;class#Queue#0" />
-            <element signature="n#!!block;n#setQueue#0;n#Queue#0" />
             <element signature="method#dequeue#0;class#Queue#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/DoublyLinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+          <folding>
+            <element signature="method#setup#0;class#DoublyLinkedListTest#0" />
+            <element signature="e#1239#1240#0" expanded="true" />
+            <element signature="e#1302#1303#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/DoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="87" column="36" selection-start-line="87" selection-start-column="36" selection-end-line="87" selection-end-column="36" />
+        <state relative-caret-position="442">
+          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
           <folding>
             <element signature="method#DoublyLinkedList#0;class#DoublyLinkedList#0" />
             <element signature="method#setHead#0;class#DoublyLinkedList#0" />
-            <element signature="e#246#287#1" />
-            <element signature="e#300#418#1" />
+            <element signature="e#267#308#1" />
+            <element signature="e#321#447#1" />
             <element signature="method#setTail#0;class#DoublyLinkedList#0" />
+            <element signature="e#533#574#1" />
+            <element signature="e#587#665#1" />
             <element signature="method#getTail#0;class#DoublyLinkedList#0" />
+            <element signature="e#821#1021#1" />
+            <element signature="e#906#954#1" />
+            <element signature="e#1034#1075#1" />
             <element signature="method#get#0;class#DoublyLinkedList#0" />
-            <element signature="e#810#953#1" />
-            <element signature="e#837#878#1" />
-            <element signature="e#895#943#1" />
+            <element signature="e#1250#1398#1" />
+            <element signature="e#1282#1323#1" />
+            <element signature="e#1330#1378#1" />
             <element signature="method#add#0;class#DoublyLinkedList#0" />
+            <element signature="e#1465#1542#1" />
+            <element signature="e#1555#1724#1" />
             <element signature="method#addAtPosition#0;class#DoublyLinkedList#0" />
-            <element signature="method#getNumberOfElementsInList#0;class#DoublyLinkedList#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/DoublyLinkedListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-            <element signature="e#914#915#0" expanded="true" />
-            <element signature="e#1017#1018#0" expanded="true" />
-            <element signature="e#1038#1039#0" expanded="true" />
+            <element signature="method#getNumberOfElements#0;class#DoublyLinkedList#0" />
+            <element signature="e#2164#2228#1" />
           </folding>
         </state>
       </provider>

@@ -38,8 +38,8 @@ public class DoublyLinkedListTest {
     public void shoudlAddNodeAtPosition()
     {
     LinkableContainer node4 = new Node<Integer>();
-    this.list.addAtPosition(node2,node4);
-    Assert.assertEquals(this.list.get(node4).getNext(), node3);
+    this.list.addAtPosition(1,node4);
+    Assert.assertEquals(this.list.get(2).getNext(), node3);
     }
 
     @Test
@@ -50,7 +50,7 @@ public class DoublyLinkedListTest {
 
     @Test
     public void shouldGetNode(){
-        Assert.assertEquals(this.list.get(node2),node2);
+        Assert.assertEquals(this.list.get(1),node2);
     }
 }
 
