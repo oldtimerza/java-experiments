@@ -1,27 +1,12 @@
 package za.co.oldtimerza.data;
 
-public class Queue {
+public class Queue extends LinkedList {
 
-    private DoublyLinkedList queue;
-
-    public Queue()
+    public LinkableContainer remove()
     {
-    }
-
-    public void setQueue(DoublyLinkedList queue){
-        this.queue = queue;
-    }
-
-    public void enqueue(LinkableContainer node)
-    {
-        this.queue.add(node);
-    }
-
-    public LinkableContainer dequeue(Node node)
-    {
-        LinkableContainer head = this.queue.getHead();
-        this.queue.setHead(head.getNext());
-        this.queue.getHead().setPrev(null);
+        LinkableContainer head = this.getFirst();
+        head.getNext().setPrev(null);
+        this.setHead(head.getNext());
         return head;
     }
 }

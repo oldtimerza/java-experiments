@@ -1,5 +1,6 @@
 package za.co.oldtimerza.data;
 
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -24,8 +25,27 @@ public class QueueTest {
     @Test
     public void shouldAddNodeToQueue()
     {
-        this.queue.enqueue(node1);
+        this.queue.add(node1);
+        Assert.assertEquals(this.queue.getFirst(),node1);
 
     }
 
+    @Test
+    public void shouldGetFrontOfQueue()
+    {
+        this.queue.add(node1);
+        this.queue.add(node2);
+        LinkableContainer head = this.queue.remove();
+        Assert.assertEquals(head,node1);
+    }
+
+    @Test
+    public void shouldGetBackOfQueue()
+    {
+        this.queue.add(node1);
+        this.queue.add(node2);
+        this.queue.add(node3);
+        LinkableContainer tail = this.queue.getLast();
+        Assert.assertEquals(tail,node3);
+    }
 }
