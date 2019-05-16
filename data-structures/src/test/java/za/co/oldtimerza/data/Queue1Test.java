@@ -4,9 +4,9 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-public class QueueTest {
+public class Queue1Test {
 
-    private Queue queue;
+    private LinkedList queue;
     private Linkable node1;
     private Linkable node2;
     private Linkable node3;
@@ -14,7 +14,7 @@ public class QueueTest {
 
     @Before
     public void setup(){
-        this.queue = new Queue();
+        this.queue = new LinkedList();
 
         this.node1 = new Node<String>("node1");
         this.node2 = new Node<String>("node2");
@@ -30,14 +30,7 @@ public class QueueTest {
 
     }
 
-    @Test
-    public void shouldGetFrontOfQueue()
-    {
-        this.queue.add(node1);
-        this.queue.add(node2);
-        Linkable head = this.queue.remove();
-        Assert.assertEquals(head,node1);
-    }
+
 
     @Test
     public void shouldGetBackOfQueue()

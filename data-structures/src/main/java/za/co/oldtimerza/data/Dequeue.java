@@ -1,5 +1,5 @@
 package za.co.oldtimerza.data;
 
-public class Dequeue extends LinkedList
+public interface Dequeue<T> extends Queue<T>
 {
 }

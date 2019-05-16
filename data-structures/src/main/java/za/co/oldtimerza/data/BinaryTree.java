@@ -4,18 +4,13 @@ public class BinaryTree implements List
 {
 
     @Override
-    public void add(Linkable node) {
-
-    }
-
-    @Override
-    public void add(int index, Linkable node) {
-
-    }
-
-    @Override
     public void remove(int node) {
 
+    }
+
+    @Override
+    public int length() {
+        return 0;
     }
 
     @Override
@@ -31,5 +26,20 @@ public class BinaryTree implements List
     @Override
     public Linkable get(int index) {
         return null;
+    }
+
+    @Override
+    public Linkable get(Object o) {
+        return null;
+    }
+
+    @Override
+    public void add(Object o) {
+
+    }
+
+    @Override
+    public void add(int index, Object o) {
+
     }
 }

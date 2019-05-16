@@ -1,12 +1,15 @@
 package za.co.oldtimerza.data;
 
-public class Queue extends LinkedList {
-
-    public Linkable remove()
-    {
-        Linkable head = this.getFirst();
-        head.getNext().setPrev(null);
-        this.setHead(head.getNext());
-        return head;
-    }
+public interface Queue<T>{
+        void setHead(T t);
+        void setTail(T t);
+        Linkable getFirst();
+        Linkable getLast();
+        Linkable get(int index);
+        Linkable get(T t);
+        void add(T t);
+        void add(int index, T t);
+        void remove(int index);
+        int length();
 }
+

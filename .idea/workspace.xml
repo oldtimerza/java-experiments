@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c7d90c3-1533-4ab2-9be8-9c101c3bc31b" name="Default Changelist" comment="--Refactored LinkedList&#10;--Added Queue and relevant tests">
-      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/CanHoldData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="8c7d90c3-1533-4ab2-9be8-9c101c3bc31b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/LinkableContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Linkable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Dequeue.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Dequeue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/List.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/LinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/QueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/Queue1Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,19 +36,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Queue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Dequeue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="80" column="36" lean-forward="true" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
+            <state relative-caret-position="306">
+              <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
               <folding>
-                <element signature="method#LinkedList#0;class#LinkedList#0" />
-                <element signature="method#setHead#0;class#LinkedList#0" />
-                <element signature="method#setTail#0;class#LinkedList#0" />
-                <element signature="method#getLast#0;class#LinkedList#0" />
-                <element signature="method#add#0;class#LinkedList#0" />
-                <element signature="method#add#1;class#LinkedList#0" />
-                <element signature="method#length#0;class#LinkedList#0" />
+                <element signature="method#LinkedList1#0;class#Queue#0" />
+                <element signature="method#setHead#0;class#Queue#0" />
+                <element signature="e#283#354#1" />
+                <element signature="e#367#516#1" />
+                <element signature="method#setTail#0;class#Queue#0" />
+                <element signature="method#getLast#0;class#Queue#0" />
+                <element signature="e#862#1053#1" />
+                <element signature="e#938#986#1" />
+                <element signature="e#1066#1107#1" />
+                <element signature="method#get#0;class#Queue#0" />
+                <element signature="e#1245#1421#1" />
+                <element signature="e#1277#1318#1" />
+                <element signature="e#1335#1411#1" />
+                <element signature="method#get#1;class#Queue#0" />
+                <element signature="e#1551#1701#1" />
+                <element signature="e#1585#1626#1" />
+                <element signature="e#1643#1691#1" />
+                <element signature="method#add#0;class#Queue#0" />
+                <element signature="e#1833#1910#1" />
+                <element signature="e#1923#2092#1" />
+                <element signature="method#add#1;class#Queue#0" />
+                <element signature="method#length#0;class#Queue#0" />
+                <element signature="e#2565#2629#1" />
               </folding>
             </state>
           </provider>
@@ -60,14 +100,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/LinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="561">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#479#480#0" expanded="true" />
                 <element signature="e#546#547#0" expanded="true" />
                 <element signature="e#606#607#0" expanded="true" />
                 <element signature="e#668#669#0" expanded="true" />
+                <element signature="e#918#919#0" expanded="true" />
                 <element signature="e#975#976#0" expanded="true" />
                 <element signature="e#1019#1020#0" expanded="true" />
                 <element signature="e#1078#1079#0" expanded="true" />
@@ -103,19 +144,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Queue.java">
+        <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Stack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="238">
+              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+              <folding>
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#730#731#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Stack.java">
+        <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="51">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+              <folding>
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+                <element signature="e#628#629#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/Queue1Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -148,8 +216,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/SimpleObject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/PassByReferenceScenarios.java" />
         <option value="$PROJECT_DIR$/src/test/java/PassByTests.java" />
         <option value="$PROJECT_DIR$/javaexperimentsstreams/pom.xml" />
@@ -185,18 +251,22 @@
         <option value="$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/NodeTest.java" />
         <option value="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/DoublyLinkedList.java" />
         <option value="$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/DoublyLinkedListTest.java" />
-        <option value="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Dequeue.java" />
         <option value="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/LinkedListInterface.java" />
-        <option value="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/List.java" />
-        <option value="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Queue.java" />
         <option value="$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/LinkedList.java" />
         <option value="$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/QueueTest.java" />
-        <option value="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/BinaryTree.java" />
         <option value="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/CanHoldData.java" />
         <option value="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Linkable.java" />
         <option value="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Node.java" />
-        <option value="$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/LinkedListTest.java" />
+        <option value="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/LinkedList1.java" />
+        <option value="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Queue1.java" />
         <option value="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/LinkedList.java" />
+        <option value="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/List.java" />
+        <option value="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Queue.java" />
+        <option value="$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/LinkedListTest.java" />
+        <option value="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Dequeue.java" />
+        <option value="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Stack.java" />
+        <option value="$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/Queue1Test.java" />
       </list>
     </option>
   </component>
@@ -422,21 +492,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="za.co.oldtimerza.data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="za.co.oldtimerza.data" />
-      <option name="MAIN_CLASS_NAME" value="za.co.oldtimerza.data.LinkedList" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data" />
       <extension name="coverage">
@@ -448,22 +503,6 @@
       <option name="PACKAGE_NAME" value="za.co.oldtimerza.data" />
       <option name="MAIN_CLASS_NAME" value="za.co.oldtimerza.data.LinkedListTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedList.shouldAddNodeToEndOfList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="za.co.oldtimerza.data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="za.co.oldtimerza.data" />
-      <option name="MAIN_CLASS_NAME" value="za.co.oldtimerza.data.LinkedList" />
-      <option name="METHOD_NAME" value="shouldAddNodeToEndOfList" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -483,7 +522,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Queue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data" />
       <extension name="coverage">
         <pattern>
@@ -492,25 +531,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="za.co.oldtimerza.data" />
-      <option name="MAIN_CLASS_NAME" value="za.co.oldtimerza.data.QueueTest" />
+      <option name="MAIN_CLASS_NAME" value="za.co.oldtimerza.data.Queue" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Queue1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="za.co.oldtimerza.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="za.co.oldtimerza.data" />
+      <option name="MAIN_CLASS_NAME" value="za.co.oldtimerza.data.Queue1Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Queue.shouldAddNodeToEndOfList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="za.co.oldtimerza.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="za.co.oldtimerza.data" />
+      <option name="MAIN_CLASS_NAME" value="za.co.oldtimerza.data.Queue" />
+      <option name="METHOD_NAME" value="shouldAddNodeToEndOfList" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="JUnit.InsertionSortTests.shouldSortIntegers" />
-      <item itemvalue="JUnit.LinkedList" />
+      <item itemvalue="JUnit.Queue" />
       <item itemvalue="JUnit.NodeTest" />
-      <item itemvalue="JUnit.LinkedList.shouldAddNodeToEndOfList" />
-      <item itemvalue="JUnit.QueueTest" />
+      <item itemvalue="JUnit.Queue.shouldAddNodeToEndOfList" />
+      <item itemvalue="JUnit.Queue1Test" />
       <item itemvalue="JUnit.LinkedListTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.LinkedListTest" />
-        <item itemvalue="JUnit.QueueTest" />
-        <item itemvalue="JUnit.LinkedList.shouldAddNodeToEndOfList" />
+        <item itemvalue="JUnit.Queue1Test" />
+        <item itemvalue="JUnit.Queue.shouldAddNodeToEndOfList" />
         <item itemvalue="JUnit.NodeTest" />
       </list>
     </recent_temporary>
@@ -624,13 +694,17 @@
       <option name="project" value="LOCAL" />
       <updated>1557884557436</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="--Refactored LinkedList&#10;--Added Queue and relevant tests">
+      <created>1557970212003</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1557970212003</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DoublyLinkedListTest - 2019.05.14 at 17h 27m 42s.xml">
-      <configuration name="DoublyLinkedListTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LinkedList - 2019.05.14 at 21h 38m 44s.xml">
       <configuration name="LinkedList" configurationId="JUnit" />
     </history-entry>
@@ -658,6 +732,9 @@
     <history-entry file="LinkedListTest - 2019.05.15 at 21h 28m 43s.xml">
       <configuration name="LinkedListTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LinkedListTest - 2019.05.15 at 21h 29m 58s.xml">
+      <configuration name="LinkedListTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -681,7 +758,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32972136" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49065608" visible="true" weight="0.28250775" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49065608" weight="0.28250775" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -689,7 +766,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4998012" weight="0.32972136" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5077535" side_tool="true" weight="0.43234995" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4998012" weight="0.32972136" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4922465" weight="0.32894737" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.4922465" visible="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Inspection Results" order="11" visible="true" weight="0.3317757" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24970178" />
@@ -998,62 +1075,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/QueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="method#setup#0;class#QueueTest#0" />
-            <element signature="method#shouldAddNodeToQueue#0;class#QueueTest#0" />
-            <element signature="method#shouldGetFrontOfQueue#0;class#QueueTest#0" />
-            <element signature="method#shouldGetBackOfQueue#0;class#QueueTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Dequeue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/CanHoldData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1092,16 +1113,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/LinkedList1.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/LinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="561">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#479#480#0" expanded="true" />
             <element signature="e#546#547#0" expanded="true" />
             <element signature="e#606#607#0" expanded="true" />
             <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#918#919#0" expanded="true" />
             <element signature="e#975#976#0" expanded="true" />
             <element signature="e#1019#1020#0" expanded="true" />
             <element signature="e#1078#1079#0" expanded="true" />
@@ -1111,17 +1143,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="80" column="36" lean-forward="true" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
+        <state relative-caret-position="306">
+          <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
           <folding>
-            <element signature="method#LinkedList#0;class#LinkedList#0" />
-            <element signature="method#setHead#0;class#LinkedList#0" />
-            <element signature="method#setTail#0;class#LinkedList#0" />
-            <element signature="method#getLast#0;class#LinkedList#0" />
-            <element signature="method#add#0;class#LinkedList#0" />
-            <element signature="method#add#1;class#LinkedList#0" />
-            <element signature="method#length#0;class#LinkedList#0" />
+            <element signature="method#LinkedList1#0;class#Queue#0" />
+            <element signature="method#setHead#0;class#Queue#0" />
+            <element signature="e#283#354#1" />
+            <element signature="e#367#516#1" />
+            <element signature="method#setTail#0;class#Queue#0" />
+            <element signature="method#getLast#0;class#Queue#0" />
+            <element signature="e#862#1053#1" />
+            <element signature="e#938#986#1" />
+            <element signature="e#1066#1107#1" />
+            <element signature="method#get#0;class#Queue#0" />
+            <element signature="e#1245#1421#1" />
+            <element signature="e#1277#1318#1" />
+            <element signature="e#1335#1411#1" />
+            <element signature="method#get#1;class#Queue#0" />
+            <element signature="e#1551#1701#1" />
+            <element signature="e#1585#1626#1" />
+            <element signature="e#1643#1691#1" />
+            <element signature="method#add#0;class#Queue#0" />
+            <element signature="e#1833#1910#1" />
+            <element signature="e#1923#2092#1" />
+            <element signature="method#add#1;class#Queue#0" />
+            <element signature="method#length#0;class#Queue#0" />
+            <element signature="e#2565#2629#1" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Dequeue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structures/src/main/java/za/co/oldtimerza/data/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding>
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structures/src/test/java/za/co/oldtimerza/data/Queue1Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
         </state>
       </provider>
     </entry>
