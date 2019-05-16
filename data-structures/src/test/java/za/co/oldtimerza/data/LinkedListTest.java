@@ -7,39 +7,36 @@ import org.junit.Test;
 public class LinkedListTest{
 
     private LinkedList list;
-    private LinkableContainer node1;
-    private LinkableContainer node2;
-    private LinkableContainer node3;
+    private Linkable node1;
+    private Linkable node2;
+    private Linkable node3;
 
     @Before
    public void setup(){
         this.list = new LinkedList();
-        this.node1 = new Node<String>("node1");
-        this.node2 = new Node<String>("node2");
-        this.node3 = new Node<String>("node3");
-        this.list.add(node1);
-        this.list.add(node2);
-        this.list.add(node3);
+        this.list.add("node1");
+        this.list.add("node2");
+        this.list.add("node3");
     }
 
     @Test
     public void shouldAddHeadToList()
     {
-        Assert.assertEquals(this.list.getFirst(),node1);
+        Assert.assertEquals(this.list.getFirst().getData(),"node1");
     }
 
     @Test
     public void shouldAddNodeToEndOfList()
     {
-        Assert.assertEquals(this.list.getLast(),node3);
+        Assert.assertEquals(this.list.getLast().getData(),"node3");
     }
 
     @Test
     public void shoudlAddNodeAtPosition()
     {
-    LinkableContainer node4 = new Node<Integer>();
+    Linkable node4 = new Node<Integer>();
     this.list.add(1,node4);
-    Assert.assertEquals(this.list.get(2).getNext(), node3);
+    Assert.assertEquals(this.list.get(2).getNext().getData(), "node3");
     }
 
     @Test
@@ -50,7 +47,7 @@ public class LinkedListTest{
 
     @Test
     public void shouldGetNode(){
-        Assert.assertEquals(this.list.get(1),node2);
+        Assert.assertEquals(this.list.get(1).getData(),"node2");
     }
 }
 

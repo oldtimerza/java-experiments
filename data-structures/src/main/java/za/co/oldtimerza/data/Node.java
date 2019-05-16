@@ -1,9 +1,9 @@
 package za.co.oldtimerza.data;
 
-public class Node<T> implements LinkableContainer<T> {
+public class Node<T> implements Linkable{
 
-    private LinkableContainer prev = null;
-    private LinkableContainer next = null;
+    private Linkable prev = null;
+    private Linkable next = null;
     private T data = null;
 
     public Node(T t){
@@ -14,19 +14,19 @@ public class Node<T> implements LinkableContainer<T> {
 
     }
 
-    public LinkableContainer getPrev() {
+    public Linkable getPrev() {
         return prev;
     }
 
-    public void setPrev(LinkableContainer prev) {
+    public void setPrev(Linkable prev) {
         this.prev = prev;
     }
 
-    public LinkableContainer getNext() {
+    public Linkable getNext() {
         return next;
     }
 
-    public void setNext(LinkableContainer next) {
+    public void setNext(Linkable next) {
         this.next = next;
     }
 
@@ -34,7 +34,7 @@ public class Node<T> implements LinkableContainer<T> {
         return data;
     }
 
-    public void setData(T data) {
+    public void setData(Object t) {
         this.data = data;
     }
 }

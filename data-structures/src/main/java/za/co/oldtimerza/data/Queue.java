@@ -2,9 +2,9 @@ package za.co.oldtimerza.data;
 
 public class Queue extends LinkedList {
 
-    public LinkableContainer remove()
+    public Linkable remove()
     {
-        LinkableContainer head = this.getFirst();
+        Linkable head = this.getFirst();
         head.getNext().setPrev(null);
         this.setHead(head.getNext());
         return head;

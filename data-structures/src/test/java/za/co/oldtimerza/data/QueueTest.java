@@ -7,10 +7,10 @@ import org.junit.Test;
 public class QueueTest {
 
     private Queue queue;
-    private LinkableContainer node1;
-    private LinkableContainer node2;
-    private LinkableContainer node3;
-    private LinkableContainer node4;
+    private Linkable node1;
+    private Linkable node2;
+    private Linkable node3;
+    private Linkable node4;
 
     @Before
     public void setup(){
@@ -35,7 +35,7 @@ public class QueueTest {
     {
         this.queue.add(node1);
         this.queue.add(node2);
-        LinkableContainer head = this.queue.remove();
+        Linkable head = this.queue.remove();
         Assert.assertEquals(head,node1);
     }
 
@@ -45,7 +45,7 @@ public class QueueTest {
         this.queue.add(node1);
         this.queue.add(node2);
         this.queue.add(node3);
-        LinkableContainer tail = this.queue.getLast();
+        Linkable tail = this.queue.getLast();
         Assert.assertEquals(tail,node3);
     }
 }

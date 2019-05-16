@@ -1,43 +1,48 @@
 package za.co.oldtimerza.data;
 
-public class LinkedList {
-        private LinkableContainer head = null;
-        private LinkableContainer tail = null;
+public class LinkedList<T>{
+        private Linkable head = null;
+        private Linkable tail = null;
 
-        public LinkedList(){
+        public LinkedList()
+        {
 
         }
 
-        public void setHead(LinkableContainer node){
+        public void setHead(T t)
+        {
+            Linkable node = new Node<T>(t);
             if(this.head == null){
                 this.head = node;
-            }
+                this.tail = node;
+                }
             else{
-                LinkableContainer temp = this.head;
+                Linkable temp = this.head;
+                temp.setPrev(node);
                 this.head = node;
                 this.head.setNext(temp);
             }
         }
 
-        public void setTail(LinkableContainer node){
-            if(this.tail == null){
-                this.head = node;
-            }
-            else{
-                this.tail.setNext(node);
-                this.tail = node;
-            }
+        public void setTail(T t)
+        {
+            Linkable node = new Node<T>(t);
+            this.tail.setNext(node);
+            node.setPrev(this.tail);
+            node.setNext(null);
+            this.tail = node;
         }
 
-        public LinkableContainer getFirst()
+        public Linkable getFirst()
         {
             return this.head;
         }
 
-        public LinkableContainer getLast(){
+        public Linkable getLast()
+        {
 
             if(this.tail == null){
-                LinkableContainer n = this.head;
+                Linkable n = this.head;
                 while(n.getNext() != null){
                     n = n.getNext();
                 }
@@ -49,9 +54,10 @@ public class LinkedList {
             }
         }
 
-        public LinkableContainer get(int index) {
+        public Linkable get(int index)
+        {
             int count = 0;
-            LinkableContainer n = this.head;
+            Linkable n = this.head;
             while(n.getNext() != null){
                 if(count == index){
                     return n;
@@ -64,36 +70,56 @@ public class LinkedList {
             return null;
         }
 
-        public void add(LinkableContainer newnode){
+        public Linkable get(T t)
+        {
+            Linkable n = this.head;
+            while(n.getNext() != null){
+                if(n.getData() == t){
+                    return n;
+                }
+                else{
+                    n = n.getNext();
+                }
+            }
+            return null;
+        }
+
+        public void add(T t)
+        {
+            Linkable newNode = new Node<T>(t);
             if(this.head == null){
-                this.head = newnode;
-                this.tail = newnode;
+                this.head = newNode;
+                this.tail = newNode;
             }
             else{
-                newnode.setPrev(this.getLast());
-                newnode.setNext(null);
-                this.getLast().setNext(newnode);
-                this.tail = newnode;
+                newNode.setPrev(this.getLast());
+                newNode.setNext(null);
+                this.getLast().setNext(newNode);
+                this.tail = newNode;
             }
         }
 
-        public void add(int index, LinkableContainer newnode){
-            LinkableContainer n0 = this.get(index);
-            LinkableContainer n1 = n0.getNext();
+        public void add(int index, T t)
+        {
+            Linkable newNode = new Node<T>(t);
+            Linkable n0 = this.get(index);
+            Linkable n1 = n0.getNext();
 
-            n0.setNext(newnode);
-            n1.setPrev(newnode);
-            newnode.setPrev(n0);
-            newnode.setNext(n1);
+            n0.setNext(newNode);
+            n1.setPrev(newNode);
+            newNode.setPrev(n0);
+            newNode.setNext(n1);
         }
 
-        public void remove(int index) {
+        public void remove(int index)
+        {
             this.get(index);
         }
 
-        public int length(){
+        public int length()
+        {
             int count = 0;
-            LinkableContainer n = this.head;
+            Linkable n = this.head;
             while(n != null){
                 n = n.getNext();
                 count += 1;
